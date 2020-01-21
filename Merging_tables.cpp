@@ -1,3 +1,9 @@
+//In this problem, your goal is to simulate a sequence of merge operations with tables in a database.
+
+// There are n tables stored in some database. The tables are numbered from 1 to n. All tables share the same set of columns.Each table 
+//contains either several rows with real data or a symbolic link to another table. Initially, all tables contain data, and i-th table has
+//r[i] rows. You need to perform m of the following operations: 
+
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -48,6 +54,8 @@ void merging_tables(int m){
 
 int main(){
     
+    //n is the total number of table in database
+    //m is the no. of merging perform
     int n, m;
     
     cin>>n;
